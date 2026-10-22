@@ -1,1 +1,1 @@
-This is the basic learing project
+This is the basic learning project
