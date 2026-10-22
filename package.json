@@ -5,16 +5,25 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/server.js"
+    "dev": "node server.js"
   },
   "author": "Vicky Vishwakarama",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicky-vishwakarma/fivth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vicky-vishwakarma/fivth/issues"
+  },
+  "homepage": "https://github.com/vicky-vishwakarma/fivth#readme",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.6",
-    "dotenv": "^18.0.7",
+    "dotenv": "^18.0.8",
     "express": "^5.3.0",
-    "mongoose": "^9.11.2",
-    "nodemon": "^1.14.10"
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.2"
   }
 }
